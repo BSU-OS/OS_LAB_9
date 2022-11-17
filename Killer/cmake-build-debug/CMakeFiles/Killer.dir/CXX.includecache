@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/c++_progects/OS/Lab9/Killer/main.cpp
+iostream
+-
+string
+-
+windows.h
+-
+tlhelp32.h
+-
+vector
+-
+regex
+-
+sstream
+-
+

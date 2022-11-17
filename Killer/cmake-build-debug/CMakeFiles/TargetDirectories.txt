@@ -1,0 +1,3 @@
+D:/c++_progects/OS/Lab9/Killer/cmake-build-debug/CMakeFiles/Killer.dir
+D:/c++_progects/OS/Lab9/Killer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/c++_progects/OS/Lab9/Killer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
