@@ -69,7 +69,7 @@ DWORD KillerTerminateProcess(std::string flag) {
 
 void KillerRecursion() {
     std::string flag = "";
-    while (flag != "/EXIT") {
+    while (flag != "/EXIT" && input.rdbuf()->in_avail()!=0) {
         input >> flag;
         if (flag == "/EXIT") {
             return;
@@ -83,6 +83,8 @@ void KillerRecursion() {
             KillerTerminateProcess(flag);
         }
     }
+    std::string str;
+    std::getline(std::cin,str);
 }
 
 std::string inputToString(int argc, char **argv) {
